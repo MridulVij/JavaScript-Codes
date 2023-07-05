@@ -1,6 +1,6 @@
 // Variables in js
 
-// variable in js is only declared with "var" not datatype is required
+// variable in js in this var is used to store any type of value in it. without declaration of data types like another languages
 // ex:-
 
 // we also use _underscore or $dollar sign to assign to variables
@@ -33,8 +33,8 @@ var _my__name = "working";
 var $my = "working";
 var my1 = "working"
 
-// Quiz Conclusion dont add Decimal numbers in first position while declaraition
+// Quiz Conclusion dont add Decimal, Numeric, Int numbers in first position while declaraition
 
 
 // this is for displaying values in html based page in which js is connected with it
-//document.write(myPhoneNumber)
+document.write(myPhoneNumber)

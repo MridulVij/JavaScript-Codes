@@ -7,10 +7,12 @@ function main1(m,c){
     var m;// = "m";
     var c;// = "v";
     var s = m+c;
-    console.log("Function Method 1 "+s);
+    //console.log("Function Method 1 "+s);
+    return s;
 }
-//Function Calling
-main1("Mridul","Vij");
+//Function Calling 2 methods
+console.log("Function Method 1.1 "+main1("Mridul", "Vij"))
+console.log(`Function Method 1.2 ${main1("Mridul","Vij")}`)
 
 
 
@@ -21,6 +23,7 @@ function main2(m,c){
     var c = "v";
     var s = m+c;
     console.log("Function Method 2 "+s);
+    return s;
 }
 main2("Mridul","Vij");
 
@@ -32,7 +35,9 @@ function main3(m,c){
     var s = m+c;
     return s;
 }
+var h;
 console.log("Function Method 3 "+main3("Mridul","Vij"));
+console
 
 
 // Function Method 4

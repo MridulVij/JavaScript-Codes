@@ -21,3 +21,8 @@
  console.log();
 
  console.log('Hello');
+
+ // this is worked in browser
+ alert('hello')
+
+ 
