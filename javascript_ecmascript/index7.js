@@ -1,6 +1,6 @@
 // Arrays in js
 
-// declaration of Arrat -> var array_name = [];
+// declaration of Array -> var array_name = [];
 
 // 1. Traversing of Array in js
 var myName = ['Mridul', 'vij', 'M', 'R', 'I', 'D', 'U', 'L'];
