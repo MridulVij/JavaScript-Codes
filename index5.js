@@ -37,7 +37,6 @@ function main3(m,c){
 }
 var h;
 console.log("Function Method 3 "+main3("Mridul","Vij"));
-console
 
 
 // Function Method 4

@@ -6,7 +6,16 @@
 // 2. const = for local scope
 // 3. let = for local scope 
 
-// var & let variable keyword is same we can change values
+var v1 = "Hello"
+v1 = "beta"
+console.log(v1)
+let v2 = v1
+console.log(v2)
+const v3 = v2
+console.log(v3)
+
+
+// var & let variable keyword is same we can change values and access globally
 // const is like kotlin val it does not change after assigning value
 
 
