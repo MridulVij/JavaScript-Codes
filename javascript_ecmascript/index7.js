@@ -40,7 +40,8 @@ myName.forEach(function(element, index, array){
 
 
 // 2. Searching and Filter in an Array
-/* */
+// Method 1
+
 
 // 3. How to Sort and Compare an Array
 /* */
@@ -48,17 +49,18 @@ myName.forEach(function(element, index, array){
 
 
 // 4. How to Insert, Add, Replace, and Delete Elements in Array(CRUD) operation in Array
-const myArray =['aalu', 'bengen', 'khiira', 'pyyaz'];
+var myArray = ['aalu', 'bengen', 'khiira', 'pyyaz'];
 
 // arrayName.push(); -> is used to push element in array from back side it returns updated size of array
 const count = myArray.push('Tomato');
+console.log('Push in Array')
 console.log(myArray);
 console.log(count);
 
-// arrayName.unshift(); -> is used for push elements in array from front side
-const myArray1 = ['vij', 'madhav', 'vij'];
-const count1 = myArray1.unshift('vij','Mridul');
-console.log(myArray1);
+// arrayName.unshift(); -> is used for push elements in array from front side and return updated size of array
+const count1 = myArray.unshift('Pea',);
+console.log('')
+console.log(myArray);
 console.log(count1);
 
 // #1 arrayName.pop(); -> is used to pop/delete last element from array and changes length of an array
@@ -71,7 +73,18 @@ console.log(count2);
 const myArray3 = ['A', 'B', 'C'];
 console.log(myArray3.pop());
 
-// arrayName.splice(); -> 
+// arrayName.splice(); ->  this is used to insert element in last via provided index of array
+const NewVegitable = myArray.splice(myArray.length,0,"Dec");
+
+console.log(myArray)
+console.log(NewVegitable)
 
 
-// 5. Map(), Reduce(), Filter()
+// 5. Map(), Reduce(), Filter() ->
+const arr = [1,2,3,4,5,6,7,8,9];
+
+let newArr = arr.map((curElem, index, arr)=> {
+    return curElem;
+})
+console.log(arr)
+console.log(newArr)
