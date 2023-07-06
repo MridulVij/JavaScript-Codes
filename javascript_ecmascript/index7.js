@@ -30,7 +30,7 @@ for(let index in myName){
 // for each loop to get element, index etc
 console.log("Method 4");
 myName.forEach(function(element, index, array){
-    console.log(element + "Index: " + index + " " + array)
+    console.log(element + " -> Index: " + index + " " + array)
 });
 
 
